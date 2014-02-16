@@ -1,4 +1,5 @@
-from lib.specialized import enthused_greeter
+from lib.specialized.enthused_greeter import (enthusiastically_greet,
+                                              feel_dejected)
 from lib.messages import greeting
 
 
@@ -7,4 +8,8 @@ def greet():
 
 
 def greet_enthusiastically():
-    enthused_greeter.enthusiastically_greet()
+    enthusiastically_greet()
+
+
+def feel_bad():
+    feel_dejected()
